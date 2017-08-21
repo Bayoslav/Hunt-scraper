@@ -16,5 +16,4 @@ urlpatterns = [
     #jobs%5B%5D=3 sets the skill  id to 3 which equals to PHP, you can add more than 1 job
     #Connect all of these with a &, as given in the first example.
     #If there are no filters just use crapper/all
-    #url(r'^([^/]+)/(\d+)/([0-9]{4})/([^/]+)/$', Freelancer.as_view()),
 ]
