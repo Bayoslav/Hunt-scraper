@@ -1,6 +1,5 @@
 import bs4 as bs
 import requests
-jobcont = []
 
 def printJobs():
     jobcont = []
