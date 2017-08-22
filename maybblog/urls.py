@@ -18,7 +18,6 @@ from django.contrib import admin
 from maybblog.views import poyy,index
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^(\d+)/$',index),
     url(r'^crapper/', include('crapper.urls'))
 
 ]
